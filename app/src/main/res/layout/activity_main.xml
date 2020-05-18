@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbd"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="324dp"
+        android:layout_height="212dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/ssdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:background="@drawable/bg_menu"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="24dp"
+            android:paddingTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bg_custom">
+
+                    <ImageButton
+                        android:id="@+id/alpha"
+                        android:layout_width="84dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/idalpha" />
+
+                    <TextView
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:text="Alpha"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bg_custom">
+
+                    <ImageButton
+                        android:id="@+id/bravo"
+                        android:layout_width="84dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ldbravo" />
+
+                    <TextView
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bravo"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="30dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bg_custom">
+
+                    <ImageButton
+                        android:id="@+id/charlie"
+                        android:layout_width="84dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/idcharle"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Charlie"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="24dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bg_custom">
+
+                    <ImageButton
+                        android:id="@+id/delta"
+                        android:layout_width="84dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/iddelta" />
+
+                    <TextView
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:text="Delta"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="33dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bg_custom">
+
+                    <ImageButton
+                        android:id="@+id/echo"
+                        android:layout_width="84dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ldecho" />
+
+                    <TextView
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:text="Echo"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginLeft="35dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bg_custom">
+
+                    <ImageButton
+                        android:id="@+id/tentang"
+                        android:layout_width="72dp"
+                        android:layout_height="69dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/icon" />
+
+                    <TextView
+                        android:layout_width="73dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="28dp"
+                        android:text="About"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
